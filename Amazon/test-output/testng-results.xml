@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-05T16:22:36 IST" name="Suite" finished-at="2021-05-05T16:22:37 IST" duration-ms="888">
+  <suite started-at="2021-05-06T14:38:50 IST" name="Suite" finished-at="2021-05-06T14:38:56 IST" duration-ms="6326">
     <groups>
     </groups>
-    <test started-at="2021-05-05T16:22:36 IST" name="Test" finished-at="2021-05-05T16:22:37 IST" duration-ms="888">
+    <test started-at="2021-05-06T14:38:50 IST" name="Test" finished-at="2021-05-06T14:38:56 IST" duration-ms="6326">
       <class name="com.qa.testscripts.Amazon">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.Amazon@747edf66]" started-at="2021-05-05T16:22:36 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1620211956594" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.Amazon@a3d8174]" started-at="2021-05-06T14:38:50 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1620292130659" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml]]>
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:268)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -47,7 +47,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.Amazon@747edf66]" started-at="2021-05-05T16:22:37 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-05T16:22:37 IST" duration-ms="0" status="SKIP">
+        <test-method signature="searchItemsInAmazon(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscripts.Amazon@a3d8174]" started-at="2021-05-06T14:38:56 IST" name="searchItemsInAmazon" data-provider="getData" finished-at="2021-05-06T14:38:56 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NegativeArraySizeException: -1]]>
@@ -96,17 +96,17 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemsInAmazon -->
-        <test-method signature="amazonend()[pri:1, instance:com.qa.testscripts.Amazon@747edf66]" started-at="2021-05-05T16:22:37 IST" name="amazonend" finished-at="2021-05-05T16:22:37 IST" duration-ms="0" status="SKIP">
+        <test-method signature="amazonend()[pri:1, instance:com.qa.testscripts.Amazon@a3d8174]" started-at="2021-05-06T14:38:56 IST" name="amazonend" finished-at="2021-05-06T14:38:56 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml]]>
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:268)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -136,17 +136,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonend -->
-        <test-method signature="amazon()[pri:2, instance:com.qa.testscripts.Amazon@747edf66]" started-at="2021-05-05T16:22:37 IST" name="amazon" finished-at="2021-05-05T16:22:37 IST" duration-ms="0" status="SKIP">
+        <test-method signature="amazon()[pri:2, instance:com.qa.testscripts.Amazon@a3d8174]" started-at="2021-05-06T14:38:56 IST" name="amazon" finished-at="2021-05-06T14:38:56 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml]]>
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Anil\Desktop\automation\Amazon\testng.xml
+in C:\Users\Anil\git\MyAmazonProject\Amazon\testng.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:268)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -176,7 +176,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.Amazon@747edf66]" started-at="2021-05-05T16:22:37 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1620211957453" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.Amazon@a3d8174]" started-at="2021-05-06T14:38:56 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1620292136929" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
